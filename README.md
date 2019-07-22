@@ -1,6 +1,8 @@
-# Can you guess which text is real?
+# Can you guess if the text is real?
 
-Using datasets from GPT-2 to display generated and real text side by side.
+Using datasets from GPT-2 to display randomized text between Webtext and generated texts.
+
+## Eventually
 Choose a difficulty and guess which text was written by a human and which was made by a computer.
 
 ---
