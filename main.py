@@ -1,5 +1,4 @@
 import os, json
-import pandas as pd
 import random
 from random import randrange
 import flask

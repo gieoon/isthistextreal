@@ -1,8 +1,22 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
 	text-align: center;
 	margin: 0;
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 15px;
+	position: relative;
+	padding-bottom: 6rem;
+	min-height: 100%;
 }
 
 #title {
@@ -14,13 +28,6 @@ body {
 	padding: .5rem 0;
 }
 
-#text-container {
-	/*border: 1px solid black;*/
-	margin: 2rem 0rem;
-	padding: 0 1.5rem;
-	margin-bottom: 3rem;
-}
-
 #description-container {
 	font-size: 14px;
 	border: 1px solid #ccc;
@@ -29,13 +36,22 @@ body {
 	font-size: .85em;
 	color: #333;
 	border-radius: 4px;
-	margin: 6px;
+	margin: 6px .5rem;
 }
+
+#text-container {
+	/*border: 1px solid black;*/
+	margin: 2rem 0rem;
+	padding: 0 .5rem;
+	margin-bottom: 3rem;
+}
+
+
 
 #solution-container {
 	font-size: 24px;
 	font-weight: bold;
-	
+	margin-bottom: 3rem;
 	/*border: 1px solid #ccc;
 	box-shadow: 0 0 3px rgba(50,50,50,.2);
 	padding: 5px;
@@ -45,12 +61,9 @@ body {
 	margin: 5px 5rem;*/
 }
 
-#footer {
-  /*position: fixed;*/
-  /*height: 200px;*/
-
-  margin-top: 4rem;
-  background-color: #ff6600;
+/*#footer {
+  margin-top: 8rem;
+  
   left: 0;
   bottom: 0;
   width: 100%;
@@ -58,6 +71,19 @@ body {
   text-align: center;
   font-size: 12px;
   padding: .5rem 0;
+}
+*/
+
+#footer {
+  margin-top: 8rem;
+  position: absolute;
+  background-color: #ff6600;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: .65rem;
+  font-size: 12.5px;
+  text-align: center;
 }
 
 #footer p {
