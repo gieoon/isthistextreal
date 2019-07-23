@@ -1,6 +1,7 @@
 runtime: python27
 api_version: 1
 threadsafe: true
+instance_class: F4_HIGHMEM
 
 libraries:
 - name: ssl
@@ -13,3 +14,4 @@ handlers:
   static_dir: static
 - url: /.*
   script: main.app
+
