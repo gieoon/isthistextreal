@@ -7,14 +7,15 @@ Using datasets from GPT-2 to display randomized text between Webtext and generat
 - Have points for the number of correct guesses in a row
 - Leaderboard
 
-But for now just enjoy what's there :)
-
 ---
 
 Thanks to OpenAI for releasing a subset of their [data](https://github.com/openai/gpt-2-output-dataset).
 
 Please forward any feedback to __jun.a.kagaya@gmail.com__
 
+Buy me a coffee! [Patreon](https://www.patreon.com/gieoon)
+
+---
 
 ## Commands
 `
